@@ -155,7 +155,7 @@ local function openRadar()
     end
 end
 addCommandHandler("Abrir radar policial", openRadar)
-bindKey("n", "down", "Abrir radar policial")
+bindKey(main_settings.bindToOpen, "down", "Abrir radar policial")
 
 local function enterVehicle(player, seat)
     if not toOpen and seat == 0 then
