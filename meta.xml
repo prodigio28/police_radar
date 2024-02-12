@@ -1,0 +1,14 @@
+<meta>
+    <info author="azevedo" name="Radar to Police" version="1.0.0"/>
+
+    <!-- ASSETS -->
+        <file src="src/client/assets/fonts/digital_font.ttf"/>
+        <file src="src/client/assets/fonts/inter_bold.ttf"/>
+
+        <file src="src/client/assets/sounds/beep.mp3"/>
+
+        <file src="src/client/assets/images/arrow.png"/>
+    <!-- -->
+    <script src="src/general.lua" type="shared" cache="false"/>
+    <script src="src/client/radar.lua" type="client" cache="false"/>
+</meta>
