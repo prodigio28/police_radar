@@ -1,6 +1,4 @@
-# police_radar system to Multi Theft Auto: San Andreas
-
-**Police Radar inspired in the resource from FiveM**
+# Police Radar system to Multi Theft Auto: San Andreas
 
 # Installation 
 * Just clone this git repository and start on your mta-server
