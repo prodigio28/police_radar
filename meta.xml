@@ -1,14 +1,18 @@
 <meta>
-    <info author="azevedo" name="Radar to Police" version="1.0.0"/>
+    <info author="gugal28" name="Police Radar based on NoPixel" version="1.5.0"/>
 
     <!-- ASSETS -->
-        <file src="src/client/assets/fonts/digital_font.ttf"/>
+        <file src="src/client/assets/fonts/digital.ttf"/>
         <file src="src/client/assets/fonts/inter_bold.ttf"/>
 
-        <file src="src/client/assets/sounds/beep.mp3"/>
-
         <file src="src/client/assets/images/arrow.png"/>
+
+        <file src="src/client/assets/sounds/beep.mp3"/>
     <!-- -->
+
     <script src="src/general.lua" type="shared" cache="false"/>
     <script src="src/client/radar.lua" type="client" cache="false"/>
+
+    <export function="setVehicleWantedState" type="client"/>
+    <export function="setVehiclePatrolState" type="client"/>
 </meta>

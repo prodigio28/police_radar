@@ -1,10 +1,13 @@
-# Police Radar system to Multi Theft Auto: San Andreas
+# Release version 1.5.0
 
 # Installation 
-* Just clone this git repository and start on your mta-server
-* To work you need a vehicle with setElementData "police"
-* To set a car wanted setElementData "wanted"
-* Every elementData is editable on file "general.lua"
+* Clone the repository to your resources and start on your server
+
+# News
+* Now you can set patrols with ID Models or elementData
+* Add more settings like panel size and others in ``general.lua``
+* The function ``setVehicleWantedState(vehicle, boolean)`` is add to set a vehicle wanted
+* The function ``setVehiclePatrolState(vehicle, boolean)`` is add to set a vehicle patrol
 
 # Preview and License
 
