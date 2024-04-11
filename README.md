@@ -15,5 +15,4 @@
 * https://www.youtube.com/watch?v=CSdW0QoYeGQ
 
 # Contacts 
-* Discord : **azevedol28**
 * Email: **lucas.azev27@gmail.com**
